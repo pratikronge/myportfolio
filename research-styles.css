@@ -1,0 +1,36 @@
+/* Research Certificate Styles */
+.research-cert {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.research-cert img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 2px solid var(--primary-color);
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0.5rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.research-cert img:hover {
+    transform: scale(1.05);
+}
+
+.research-cert p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
